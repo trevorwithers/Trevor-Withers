@@ -1,9 +1,33 @@
 body
 {
-    background-color: red;
+    background-color: rgba(32,33,35);;
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 18px;
     margin: 0;
     padding: 0;
+}
+.headerClass
+{
+    text-align: center;
+    margin-top: 2em;
+}
+.introParagraph
+{
+    background-color: gray;
+    padding: 3em;
+    text-align: justify;
+}
+.horizontal-nav {
+    list-style-type: none; /* remove bullet points */
+    display: flex; /* display list items in a row */
+    background-color: rgb(38, 38, 38);
+    padding: 1em;
+}
+.horizontal-nav li {
+    padding: 0 10px; /* add some space between list items */
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
