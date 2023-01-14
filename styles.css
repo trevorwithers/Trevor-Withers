@@ -44,10 +44,6 @@ header
     flex-direction: row;
     flex-wrap: wrap;
 }
-.flex-item
-{
-
-}
 .horizontal-nav {
     margin-top: 0;
     list-style-type: none; /* remove bullet points */
