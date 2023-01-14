@@ -23,15 +23,30 @@ header
 }
 .introParagraph
 {
+    width: 65%;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgba(88, 88, 88, 0.8);
     text-align: justify;
-    padding: 10px;
+    padding: 30px;
+}
+.portrait {
+    width: 30%;
+    height: auto;
+    margin-right: 5px;
 }
 .main-content
 {
     min-height: calc(100vh - 156.63px - 66.8px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-item
+{
+
 }
 .horizontal-nav {
     margin-top: 0;
