@@ -55,6 +55,12 @@ header
 .horizontal-nav li {
     padding: 0 10px; /* add some space between list items */
 }
+.nav-item
+{
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+    margin-bottom: 0;
+}
 a {
     color: #FFFFFF;
     text-decoration: none;
