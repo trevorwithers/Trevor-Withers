@@ -52,14 +52,13 @@ header
     padding: 1em;
     margin-bottom: 0;
 }
-.horizontal-nav li {
-    padding: 0 10px; /* add some space between list items */
-}
 .nav-item
 {
     border: 1px solid #FFFFFF;
     padding: 5px;
     margin-bottom: 0;
+    min-height: 30;
+    flex:1;
 }
 a {
     color: #FFFFFF;
