@@ -1,3 +1,43 @@
+@media only screen and (max-width: 767px) {
+
+    /* styles for screens less than 767px wide */
+    .introParagraph {
+        max-width: 100%;
+    }
+
+    .portrait {
+        max-width: 100%;
+    }
+
+    .link-box {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* styles for screens between 768px and 991px wide */
+    .introParagraph {
+        max-width: 80%;
+    }
+
+    .portrait {
+        max-width: 20%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    /* styles for screens greater than 992px wide */
+    .introParagraph {
+        max-width: 65%;
+    }
+
+    .portrait {
+        max-width: 30%;
+    }
+}
+
 html,
 body {
     height: 100%;
