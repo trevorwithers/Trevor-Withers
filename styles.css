@@ -80,17 +80,14 @@ footer {
 }
 
 .introParagraph {
-    min-height: 100%;
-    max-width: 65%;
-    margin-left: 5px;
-    margin-right: 5px;
+    flex: 0.65;
     background-color: rgba(88, 88, 88, 0.8);
     text-align: justify;
     padding: 30px;
 }
 
 .portrait {
-    max-width: 30%;
+    flex: 0.35;
     height: auto;
     margin-right: 5px;
 }
