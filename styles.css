@@ -80,14 +80,15 @@ footer {
 }
 
 .introParagraph {
-    flex: 0.65;
+    flex: 1;
+    margin-left: 5px;
     background-color: rgba(88, 88, 88, 0.8);
     text-align: justify;
     padding: 30px;
 }
 
 .portrait {
-    flex: 0.35;
+    flex: 1;
     height: auto;
     margin-right: 5px;
 }
