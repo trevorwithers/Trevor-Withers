@@ -3,10 +3,16 @@
     /* styles for screens less than 767px wide */
     .main-content {
         flex-direction: column !important;
+        margin-right: 36.5px !important;
+    }
+
+    .horizontal-nav {
+        width: 100%;
     }
 
     .introParagraph {
         width: 100%;
+
     }
 
     .portrait {
