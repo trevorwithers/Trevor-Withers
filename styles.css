@@ -2,26 +2,50 @@
 
     /* styles for screens less than 767px wide */
     .main-content {
-        flex-direction: column !important;
-        margin-right: 36.5px !important;
+        display: unset !important;
+        max-width: 100vw !important;
+        
+    }
+
+    .mobile-alt {
+        display: flex !important;
     }
 
     .horizontal-nav {
         display: none !important;
     }
 
-    .introParagraph {
-        width: 100%;
+    .hamburger {
+        display: block !important;
+        color: black;
+    }
 
+    .navbar {
+        display: flex;
+        margin-bottom: 2em;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .introParagraph {
+        margin-left: 0px !important;
+        margin: 3px !important;
+        padding: 5px !important;
     }
 
     .portrait {
-        width: 100%;
+        max-width: 50% !important;
+        margin-right: 0px !important;
+        margin: 3px !important;
+        margin-left: 25% !important;
     }
 
     .link-box {
-        flex-wrap: wrap;
-        display: none !important;
+        width: 100vw;
+        margin-right: 50px !important;
+        flex-wrap: wrap !important;
     }
 
     .nav-item {
@@ -136,4 +160,41 @@ footer {
     margin-right: 3px;
     min-height: 30px;
     border-radius: 6%;
+}
+
+.navbar {
+    position: relative;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: none;
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+.dropdown {
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.show-dropdown {
+    display: block;
 }
