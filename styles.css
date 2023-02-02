@@ -159,6 +159,8 @@ footer {
 }
 
 .nav-item {
+    display:flex;
+    align-items: center;
     border: 1px solid rgba(107, 107, 107, 0.856);
     background-color: rgb(84, 84, 84);
     padding: 5px;
@@ -172,7 +174,12 @@ footer {
     position: relative;
 }
 
+.hamburgerBtn {
+    background-color: rgba(107, 107, 107, 0.856);
+}
+
 #hamburger {
+    background-color: none;
     cursor: pointer;
     display: none;
     font-size: 2em;
